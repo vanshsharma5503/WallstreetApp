@@ -12,7 +12,7 @@ class WallpaperViewModel: ObservableObject {
     @Published var selectedCategory: String? = nil  // Connected to Sections view
 
     func fetchWallpapers() {
-        guard let url = URL(string: "http://localhost:3000/mobile") else {
+        guard let url = URL(string: "http://localhost:3000/wallpapers") else {
             print("Invalid URL")
             return
         }

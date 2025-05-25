@@ -10,9 +10,22 @@
 		2DEB51852D909BF00086AA5F /* WallStreet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallStreet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2DEB51A72D90AC930086AA5F /* Exceptions for "WallStreet" folder in "WallStreet" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2DEB51842D909BF00086AA5F /* WallStreet */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2DEB51872D909BF00086AA5F /* WallStreet */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2DEB51A72D90AC930086AA5F /* Exceptions for "WallStreet" folder in "WallStreet" target */,
+			);
 			path = WallStreet;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,11 @@
 				DEVELOPMENT_TEAM = SSTCZSNDCZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WallStreet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "<key>NSPhotoLibraryAddUsageDescription</key>\n<string>We need access to save wallpapers to your Photos.</string>\n";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +302,11 @@
 				DEVELOPMENT_TEAM = SSTCZSNDCZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WallStreet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "<key>NSPhotoLibraryAddUsageDescription</key>\n<string>We need access to save wallpapers to your Photos.</string>\n";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

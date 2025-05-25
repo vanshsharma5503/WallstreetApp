@@ -5,14 +5,19 @@
 //  Created by Vansh Sharma on 25/03/25.
 //
 
-import SwiftUI
+import Foundation
 
-struct Wallpaper: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct WallpaperResponse: Codable {
+    let mobile: [Wallpaper]  // Update to match the JSON structure
 }
 
-#Preview {
-    Wallpaper()
+struct Wallpaper: Codable, Identifiable,Hashable {
+    let id = UUID()
+    let category: String
+    let imageUrl: String
+    let thumbnailUrl: String
+
+    enum CodingKeys: String, CodingKey {
+        case category, imageUrl = "imageUrl", thumbnailUrl = "thumbnailUrl"
+    }
 }
