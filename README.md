@@ -28,9 +28,9 @@ WallStreet is a sleek and simple wallpaper app designed exclusively for iPhone. 
 
 ## 🧪 Screenshots
 
-| Home View | Wallpaper View | Favorites |
-|-----------|----------------|-----------|
-| ![](assets/home.jpg) | ![](assets/wallpaper.jpg) | ![](assets/favorites.jpg) |
+| Home View | Wallpaper View 
+|-----------|----------------|
+| ![](assets/home.jpg) | ![](assets/wallpaper.jpg) |
 
 > Add your actual app screenshots in the `assets/` folder and update the links.
 
